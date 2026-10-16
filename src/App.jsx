@@ -105,6 +105,16 @@ const experiences = [
       "Contributed to the Tripura CPI project, worked with React.js, FastAPI and PostgreSQL, supported survey-data management, built a Streamlit testing portal, and prepared technical documentation.",
     tags: ["React.js", "FastAPI", "PostgreSQL", "Streamlit"],
   },
+  
+  {
+    period: "JUL 2024 — SEP 2024",
+    role: "IT / Computer Networking & Web Development Intern",
+    company: "Airports Authority of India (AAI) · Kolkata",
+    description:
+      "Supported on-ground and office-based computer networking, IT troubleshooting, hardware-related tasks, web development, and server/network support activities.",
+    tags: ["Computer Networking", "IT Support", "Hardware", "Web Development", "Troubleshooting"],
+  },
+
   {
     period: "AUG 2024 — SEP 2024",
     role: "Java Intern",
