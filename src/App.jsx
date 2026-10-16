@@ -230,15 +230,20 @@ function App() {
               <a className="button button-primary" href="#projects">
                 Explore My Work <span>↗</span>
               </a>
-              <a className="button button-secondary" href="#contact">
-                Contact Me
+                            <a
+                className="button button-secondary"
+                href="/Rupesh_Thakur_Junior_Software_Developer_Resume.pdf"
+                download="Rupesh_Thakur_Junior_Software_Developer_Resume.pdf"
+              >
+                JSD Resume ↓
               </a>
+
               <a
                 className="button button-secondary"
-                href="/Rupesh_Thakur_Resume.pdf"
-                download="Rupesh_Thakur_Resume.pdf"
+                href="/Rupesh_Thakur_Data_Analyst_Resume.pdf"
+                download="Rupesh_Thakur_Data_Analyst_Resume.pdf"
               >
-                Download Resume ↓
+                Data Analyst Resume ↓
               </a>
             </div>
 

@@ -1,0 +1,108 @@
+        href={project.github}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`View ${project.title} on GitHub`}
+      >
+        GitHub ↗
+      </a>
+    )}
+
+    {project.demo && (
+      <a
+        href={project.demo}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`Open ${project.title} live demo`}
+      >
+        Live Demo ↗
+      </a>
+    )}
+  </div>
+
+  <span className="project-arrow">↗</span>
+</div>
+</article>
+))}
+</div>
+
+<div className="projects-note">
+  <span>✳</span>
+  Projects marked “Planned project” will be built and tested before
+  being presented as completed work.
+</div>
+</section>
+
+        <section className="education-section section-container" id="education">
+          <SectionHeading
+            eyebrow="05 / EDUCATION"
+            title={<>The foundation <span className="gradient-text">behind the work.</span></>}
+          />
+
+          <div className="education-card">
+            <div className="education-icon">AU</div>
+            <div className="education-details">
+              <span className="experience-period">2021 — 2025</span>
+              <h3>Bachelor of Technology</h3>
+              <p>Computer Science & Engineering</p>
+              <span className="education-institute">Aliah University</span>
+            </div>
+            <div className="education-score">
+              <span>CGPA</span>
+              <strong>7.12</strong>
+            </div>
+          </div>
+        </section>
+
+        <section className="contact-section section-container" id="contact">
+          <div className="contact-card">
+            <span className="eyebrow">06 / LET'S CONNECT</span>
+            <h2>
+              Have an idea?
+              <br />
+              <span className="gradient-text">Let's build something.</span>
+            </h2>
+            <p>
+              I am interested in opportunities across Python development,
+              data analytics, and software engineering.
+            </p>
+
+            <a
+              className="button button-primary contact-email"
+              href="mailto:thakurrupesh5477@gmail.com"
+            >
+              Get in Touch <span>↗</span>
+            </a>
+
+            <div className="contact-links">
+              <a href="https://github.com/R841927" target="_blank" rel="noreferrer">
+                GitHub ↗
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rupesh-thakur-44667922b/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn ↗
+              </a>
+              <a href="mailto:thakurrupesh5477@gmail.com">Email ↗</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="footer">
+        <a className="brand footer-brand" href="#home">
+          <span className="brand-mark">R</span>
+          <span>RUPESH<span className="brand-dot">.</span></span>
+        </a>
+
+        <p>Designed with purpose. Built with curiosity.</p>
+
+        <a href="#home" className="back-to-top">Back to top ↑</a>
+        <span className="footer-copy">© {new Date().getFullYear()} Rupesh Thakur</span>
+      </footer>
+    </>
+  );
+}
+
+export default App;
